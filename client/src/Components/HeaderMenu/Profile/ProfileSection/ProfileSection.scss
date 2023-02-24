@@ -1,0 +1,113 @@
+.profile-sec {
+  width: 780px;
+  height: 100%;
+
+  .experience-education {
+    width: 100%;
+    .experience-education-wraper {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      .title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        span {
+          font-size: 20px;
+          color: #191919;
+          font-weight: 500;
+        }
+        .btn-sec {
+          gap: 5px;
+          display: flex;
+          button {
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            border: none;
+            cursor: pointer;
+            background-color: #fff;
+          }
+          button:hover {
+            background-color: #ebebeb;
+          }
+        }
+      }
+      .experience-education-info {
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 20px;
+        .info {
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
+          p {
+            font-size: 14px;
+            color: #585555;
+          }
+          .date {
+            p {
+              font-size: 14px;
+              color: #838181;
+            }
+          }
+          .skill {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+            span {
+              font-size: 15px;
+              color: #323030;
+              font-weight: 500;
+            }
+          }
+          span {
+            font-size: 16px;
+            color: #323030;
+            font-weight: 500;
+          }
+          span.edu:hover {
+            text-decoration: underline;
+            color: #0a66c2;
+            cursor: pointer;
+          }
+        }
+        img {
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+        }
+      }
+    }
+  }
+
+  button.btn {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    bottom: 0px;
+    border: none;
+    height: 40px;
+    border-top: 1px solid #e7e4e4;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+    color: #666666;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    svg {
+      color: #707070;
+      margin-top: 5px;
+      margin-left: 5px;
+    }
+  }
+  button.btn:hover {
+    background-color: #ebebeb;
+    color: #747373;
+  }
+}

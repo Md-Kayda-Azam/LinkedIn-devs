@@ -1,0 +1,118 @@
+.suggection-for-you {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ddd;
+  margin-top: 10px;
+  border-radius: 10px;
+  flex-direction: column;
+  padding: 20px 31px;
+  .sug-wraper {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    flex-direction: column;
+    .title {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      span {
+        font-size: 20px;
+        font-weight: 500;
+        color: #403e3e;
+      }
+      p {
+        margin: 0px;
+        font-size: 14px;
+        color: #7c7c7c;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+      }
+    }
+    .pro-setup-count {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      margin: 10px 0px;
+      width: 100%;
+      span {
+        font-size: 16px;
+        font-weight: 500;
+        padding: 5px 0px;
+      }
+      p {
+        margin: 0px;
+        display: flex;
+        gap: 5px;
+        input[type="range"] {
+          width: 100%;
+          background-color: #56687a;
+          overflow: hidden;
+          appearance: none;
+          border-radius: 28px;
+          height: 10px;
+        }
+      }
+      .setup-dec {
+        display: flex;
+        justify-content: flex-start;
+        gap: 10px;
+        p {
+          font-size: 14px;
+          padding: 0px 0px;
+        }
+        a {
+          text-decoration: none;
+          color: #2b7aca;
+          font-size: 16px;
+          font-weight: 500;
+        }
+        a:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+    .summary {
+      height: 120px;
+      width: 100%;
+      padding: 10px 10px;
+      border-radius: 10px;
+      border: 1px solid #ebe6e6;
+      .sum-t {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        p {
+          font-size: 16px;
+          font-weight: 500;
+          color: #191919;
+        }
+      }
+      p {
+        font-size: 14px;
+        font-weight: 400;
+        color: #626262;
+      }
+      button {
+        border: 1px solid #979191;
+        height: 30px;
+        width: 150px;
+        border-radius: 15px;
+        font-size: 15px;
+        font-weight: 500;
+        color: #786f6f;
+        cursor: pointer;
+        margin-top: 5px;
+      }
+      button:hover {
+        background-color: #edebeb;
+        border: 2px solid #424242;
+      }
+    }
+  }
+}
